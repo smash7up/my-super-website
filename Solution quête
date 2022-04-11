@@ -1,0 +1,74 @@
+COMMUN+9919157T@5CD1343GD6 MINGW64 ~
+$ git clone https://github.com/smash7up/my-super-website.git
+Cloning into 'my-super-website'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+COMMUN+9919157T@5CD1343GD6 MINGW64 ~
+$ ls
+ -1.14-windows.xml        ntuser.dat.LOG1
+'3D Objects'/             ntuser.dat.LOG2
+ Agent                    NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.blf
+ AppData/                 NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+'Application Data'@       NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ bin/                     NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ Contacts/                ntuser.ini
+ Cookies@                 OneDrive/
+ Desktop/                 Pictures/
+ Documents/               planets/
+ Downloads/               planets.zip
+ Favorites/               Recent@
+ IntelGraphicsProfiles/  'Saved Games'/
+ Links/                   Searches/
+'Local Settings'@         SendTo@
+'Menu Démarrer'@          Unix_commands.md
+'Mes documents'@          Videos/
+ Modèles@                "Voisinage d'impression"@
+ Music/                  'Voisinage réseau'@
+ my-super-website/        wild-git/
+ NTUSER.DAT
+
+COMMUN+9919157T@5CD1343GD6 MINGW64 ~
+$ cd my-super-website
+
+COMMUN+9919157T@5CD1343GD6 MINGW64 ~/my-super-website (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+COMMUN+9919157T@5CD1343GD6 MINGW64 ~/my-super-website (main)
+$ git push origin main
+info: please complete authentication in your browser...
+Everything up-to-date
+
+COMMUN+9919157T@5CD1343GD6 MINGW64 ~/my-super-website (main)
+$ ls
+index.html  README.md
+
+COMMUN+9919157T@5CD1343GD6 MINGW64 ~/my-super-website (main)
+$ git add index.html
+
+COMMUN+9919157T@5CD1343GD6 MINGW64 ~/my-super-website (main)
+$ git commit
+[main 3da3190] modif h1
+ 1 file changed, 1 insertion(+)
+
+COMMUN+9919157T@5CD1343GD6 MINGW64 ~/my-super-website (main)
+$ git push git@github.com:smash7up/my-super-website.git
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 331 bytes | 331.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:smash7up/my-super-website.git
+   94b0399..3da3190  main -> main
+
+COMMUN+9919157T@5CD1343GD6 MINGW64 ~/my-super-website (main)
+$
